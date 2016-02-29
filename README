@@ -1,1 +1,14 @@
-Asynchronous distributed file messaging application that would enable user to send files to other user along with maintaining consensus between internal nodes using Raft Algorithm
+Providing new approach for creating, reading, updating and deleting files in a large, decentralized, network of servers or distributed systems. Some of the areas which were dealt include Security, managing cluster membership, byzantine attacks, Task scheduling, recovery and balancing, State consistency, searching objects.
+
+Implemented Raft - distributed consensus algorithm to distribute a state machine across a cluster of computing systems using asynchronous messaging.
+
+Developed on the top of core-netty framework, features including 
+Leader election - Elect a leader that determines consensus between various nodes.
+Log replication - Maintain multiple copies of log messages between internal nodes.
+Transfer files - Transferring files using google protobuf between multiple clients
+
+Technology Stack:
+● Algorithm: Raft
+● Server Side Coding: Java, Python
+● Framework: Core Netty
+● Message Passing: Google Protobuf
